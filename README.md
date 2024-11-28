@@ -134,3 +134,35 @@ Ensure you have the following:
     - <GOVERNANCE_TOKEN_ADDRESS> with the address of the governance token contract from `Decentralized Governance` challenge
     - <YOUR_RPC_URL> with `http://127.0.0.1:3030` to deploy to the local RPC or `https://sepolia-rpc.kakarot.org` to deploy to Kakarot Starknet Sepolia
     - <YOUR_PRIVATE_KEY> your private key
+
+
+## Checkpoint 3: Bounties
+
+### Level 1: Claiming Tokens
+
+**Goal:** Write a script to interact with the `TokenFaucet` contract and claim tokens.
+
+**Requirements:**
+
+- Connect to the contract on Kakarot Starknet Sepolia or Kakarot Local RPC network.
+- Use a wallet to call the `claimTokens` function.
+- Display the claimed tokens and the remaining faucet balance.
+
+### Level 2: Faucet Refill
+
+**Goal:** Simulate being the faucet owner and refill the contract.
+
+**Requirements:**
+
+- Transfer tokens to the faucet using the refillFaucet function.
+- Verify the faucet's balance before and after refilling.
+
+### Level 3:  Build a Frontend**
+
+**Goal:** Create a simple UI for users to interact with the faucet.
+
+**Requirements:**
+
+- Allow users to connect their wallet.
+- Display the cooldown timer for each user.
+- Enable token claiming and show the faucet's token balance.
